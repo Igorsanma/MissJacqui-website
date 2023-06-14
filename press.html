@@ -1,0 +1,211 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- website style reference -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Font awesome link for icons -->
+    <script src="https://kit.fontawesome.com/9984481123.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <title>Miss Jacqui</title>
+
+    <script src="feature.js" charset="utf-8"></script>
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+      <div class="container-fluid">
+        <!-- Logo Picture -->
+        <a class='navbar-brand' href="index.html">
+          <img class='navlogo' src="images/Jaquilogo.png" alt="Company Logo">
+        </a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+
+          <!-- Links -->
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link fs-3 textHighlight letterSpacingFeature" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 textHighlight letterSpacingFeature" aria-current="page" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 textHighlight letterSpacingFeature" aria-current="page" href="performance.html">Performance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3 active textHighlight letterSpacingFeature" aria-current="page" href="press.html">Press</a>
+            </li>
+          </ul>
+          <!-- Links -->
+
+        </div>
+        <!-- Collapsible content -->
+      </div>
+    </nav>
+
+
+    <!-- ACCESSIBILITY FEATURES -->
+    <button class="btn btn-dark openAcessFeatures" type="button" onclick="accesibility()" name="button">Accessibility</button>
+
+    <div class="accessibilityFeatures test2 hide" id="myDIV">
+      <div class="closeFeatures">
+        <p>Accessibility Menu</p>
+        <img class="closeFeaturesButton" onclick="closeFeatures()" src="images/remove.png" alt="">
+        <!-- <button class="closeFeaturesButton" onclick="closeFeatures()" type="button" name="button">X</button> -->
+      </div>
+      <hr>
+      <button class="accessibilityFeatures-sub" onclick="bigtext()" type="button" name="button"> <img class="icons" src="images/fontsize.png" alt="">Bigger Text</button>
+      <button class="accessibilityFeatures-sub" onclick="letterSpacing()" type="button" name="button"><img class="icons" src="images/text-width.png" alt="">Text Spacing</button>
+      <button class="accessibilityFeatures-sub" onclick="textHiglight()" type="button" name="button"><img class="icons" src="images/link.png" alt="">Highlight Links</button>
+      <button class="accessibilityFeatures-sub" onclick="textAlignments()" type="button" name="button"><img class="icons" src="images/mirror.png" alt="">Text-alignment</button>
+      <button class="accessibilityFeatures-sub" onclick="displayImage()" type="button" name="button"><img class="icons" src="images/image.png" alt="">Display Image</button>
+      <button class="accessibilityFeatures-sub" onclick="lineHeight()" type="button" name="button"><img class="icons" src="images/text-height.png" alt="">Text Height</button>
+      <div class="example bigTextFeature letterSpacingFeature textAlign">
+        <a class=""><p class="textHighlight textHeight">Example</p></a>
+      </div>
+      <div class="accessMadeBy">
+        <p>Made by Hi-FAX</p>
+      </div>
+    </div>
+
+
+    <div class="container top-container">
+      <div class="row">
+
+        <div class="col-lg-12 pressBio bigTextFeature letterSpacingFeature textAlign textHeight">
+          <h1>PRESS</h1>
+          <p>
+            Miss Jacqui's work as a poet, songwriter, and performer has been
+            featured in various publications and media outlets.
+            Her thought-provoking work has been praised for its ability to
+            challenge societal perceptions and inspire audiences to see the
+            world differently. Miss Jacqui has been featured in Gal-Dem,
+            URevolution, and Wellcome Collection among other outlets.
+            She has also performed at a variety of venues and events,
+            including the 2012 Paralympic Team Welcoming Ceremonies, Southbank
+            Centre, The Barbican, and Roundhouse. Miss Jacqui's unique
+            perspective as a black woman with a disability has made her a
+            powerful voice in the arts, and she continues to use her platform
+            to advocate for positive change and inspire others to be their
+            authentic selves.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+<!-- === QUOTES === -->
+    <div class="container-nas mt-5">
+      <div class="container pt-5 letterSpacingFeature textAlign textHeight">
+        <h1>Quotes</h1>
+        <p class="lowerletters bigTextFeature">
+          "The first time I heard Miss Jacqui’s music I started crying – I felt so seen. It’s rare to find someone who, like me, is both an artist and a full-time wheelchair user."
+        </p>
+        <p class="lowerletters bigTextFeature">
+          "Let me start by asking you a question, can you name any “mainstream” artist(s) that have a disability? Other than Stevie Wonder?… No?… Why do you think that is?"
+        </p>
+        <p class="lowerletters bigTextFeature">
+          "Making it as a musician is notoriously tough, and it isn’t any easier if you’re a wheelchair user. Is the music industry doing enough to support the careers of disabled artists, when many venues remain inaccessible and the most innovative technology is priced out of reach?"
+        </p>
+        <p class="lowerletters bigTextFeature">
+          "We are all in some way, just trying to live out our hopes and dreams and pains…And…That’s something I really got from your EP actually, that was the vibe that I really digged, that really came through."
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid press-2nd-container">
+
+      <div class="row">
+
+        <div class="col-lg-5 pressContentImg">
+          <img class="imageBreaker removePictures" src="images/missjacqui4.jpg" alt="Miss Jacqui performing with a microphone with fireworks in the background">
+        </div>
+        <div class="col-lg-7 pressContentText bigTextFeature letterSpacingFeature textAlign textHeight">
+          <h1>Interviews & Features</h1>
+          <p>
+            <a class="pressLinks" href="https://wellcomecollection.org/articles/Xp16UhEAACQAl7ZH" target=”_blank”>Wellcome Collection - Disabled Musicians and the Right to Perform – Interview by Jamie Hale</a>
+          </p>
+          <p>
+            <a class="pressLinks" href="https://gal-dem.com/music-industry-artist-disability/" target=”_blank”>Gal-Dem - How I Navigate the Music Industry as an Artist with a Disability</a>
+
+          </p>
+          <p>
+            <a class="pressLinks" href="https://www.urevolution.com/miss-jacqui-disabled-musicians/" target=”_blank”>URevolution - How Disabled Musicians Fight to Perform</a>
+
+          </p>
+          <p class="mb-5">
+            <a class="pressLinks" href="https://disabilityarts.online/blog/kay-channon/kay-channon-in-conversation-with-miss-jacqui-musician-performance-poet-and-all-round-freedom-fighter/" target=”_blank”>Disability Arts Online - Kay Channon In Conversation with Miss Jacqui: Musician, Performance Poet and All-Round Freedom Fighter.</a>
+
+          </p>
+        </div>
+
+        <div class="col-lg-5 pressContentImg">
+          <img class="imageBreaker removePictures" src="images/Missjacquiperf.jpg" alt="">
+        </div>
+
+        <div class="col-lg-7 pressContentText bigTextFeature letterSpacingFeature textAlign textHeight">
+          <h1 class="mt-5">Profiles & Reviews</h1>
+          <p>
+            <a class="pressLinks" href="http://www.littlecog.co.uk/miss-jacqui.html" target=”_blank”>Little Cog </a>
+          </p>
+          <p>
+            <a class="pressLinks" href="https://www.thechildrensmediaconference.com/blog/2020/07/10/the-last-word-whats-next/" target=”_blank”>The Children’s Media Conference 2020</a>
+          </p>
+          <p>
+            <a class="pressLinks" href="https://www.theatrefullstop.com/2021/11/23/criptic-pit-party-barbican-theatre-review/" target=”_blank”>CRIPtic Pit Party at The Barbican</a>
+          </p>
+          <p>
+            <a class="pressLinks" href="https://www.musicteachermagazine.co.uk/news/article/conference-report-inclusive-practice-in-action-2021" target=”_blank”>Music Teacher Conference Report: Inclusive Practice in Action</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- ===FOOTER START -->
+    <footer class="container-fluid footer" style="margin-top: 0;">
+      <div class="row">
+        <div class="col-lg-4">
+          <a class="jacquiEmailRef bigTextFeature letterSpacingFeature textHeight" href="mailto:hey@missjacqui.co.uk ">@iAmMissJacqui</a></p>
+        </div>
+        <div class="col-lg-4">
+          <p class="copyright bigTextFeature letterSpacingFeature textAlign textHeightt">
+            Copyright © All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://www.facebook.com/iAmMissJacqui/" target=”_blank”><i class="fa-brands fa-square-facebook" style="color: #4267b2;"></i></a>
+          <a href="https://twitter.com/iAmMissJacqui" target=”_blank”><i class="fa-brands fa-square-twitter" style="color: #1da1f2;"></i></a>
+          <a href="https://www.instagram.com/iammissjacqui/" target=”_blank”><i class="fa-brands fa-square-instagram " style="color: #df5c51;"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- ===FOOTER END -->
+  </body>
+</html>
