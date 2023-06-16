@@ -219,9 +219,8 @@ a:hover {
 }
 .pressIntroImg{
   width: 100%;
-  height: 50vh;
+  height: 49vh;
 }
-
 .performanceBio-container{
   position: absolute;
   top: 200px;
@@ -239,9 +238,6 @@ a:hover {
 }
 .Quotes{
   font-weight: bold;
-}
-.col-lg-4{
-  padding: 0;
 }
 
 
@@ -280,23 +276,27 @@ a:hover {
   height: 50vh;
   width: 100%;
 }
-.lowerletters{
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 .container-nas{
   width: 100%;
   height: 500px;
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-image: url(https://i.ibb.co/TcjRs7h/missjacqui3.jpg);
   background-attachment: fixed;
   text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 .container-nas p{
   color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
+
 
 
 
@@ -314,7 +314,9 @@ footer {
 .copyright{
   color: white;
 }
-
+@media ( max-width: 1280px ) {
+  .perfMusicVideos{width: 435; height: 255;}
+}
 @media ( max-width: 1000px ) {
   .funkyimg { width: 98.5vw; height: 50vh;}
   .Meetmissjacquih { visibility: hidden;}
@@ -326,5 +328,13 @@ footer {
   .nav-item {text-align: center;}
   .bioImagesmcrn {display: none;}
   .openAcessFeatures { top: 93.9vh; right: 0;}
+}
+@media ( max-width: 768px ) {
+  .pressImgRemove { display: none;}
+}
+@media ( max-width: 576px ) {
+  .performance-Video-Container{
+    margin-top: 100px;
+  }
 
 }
