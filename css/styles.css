@@ -21,6 +21,9 @@ a:hover {
 .navlogo{
   width: 150px;
 }
+.navTextCenter{
+  margin-left: 26%;
+}
 .closeFeatures{
   background-color: black;
   height: 50px;
@@ -314,8 +317,12 @@ footer {
 .copyright{
   color: white;
 }
+@media ( max-width: 1500px ) {
+  .navTextCenter{margin-left: 20%;}
+}
 @media ( max-width: 1280px ) {
   .perfMusicVideos{width: 435; height: 255;}
+  .navTextCenter{margin-left: 10%;}
 }
 @media ( max-width: 1000px ) {
   .funkyimg { width: 98.5vw; height: 50vh;}
