@@ -226,7 +226,7 @@ a:hover {
 }
 .performanceBio-container{
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -322,6 +322,7 @@ footer {
 }
 @media ( max-width: 1500px ) {
   .navTextCenter{margin-left: 24%}
+  /* .performanceBio-container{top:160px;} */
 }
 @media ( max-width: 1380px ) {
   .navTextCenter{margin-left: 20%;}
