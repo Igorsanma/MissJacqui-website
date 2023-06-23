@@ -257,6 +257,7 @@ a:hover {
   text-align: center;
 }
 .pressContentImg{
+  padding: 0;
   height: 20vh;
 }
 .pressContentText{
