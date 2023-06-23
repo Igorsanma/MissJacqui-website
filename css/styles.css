@@ -257,7 +257,7 @@ a:hover {
   text-align: center;
 }
 .pressContentImg{
-
+  height: 48vh;
 }
 .pressContentText{
   padding-right: 2%;
