@@ -20,9 +20,6 @@ a:hover {
 .navlogo{
   width: 150px;
 }
-.navTextCenter{
-  margin-left: 29%;
-}
 .closeFeatures{
   background-color: black;
   height: 50px;
@@ -312,18 +309,22 @@ footer {
 }
 
 @media ( max-width: 3026px ) {
-  .perfIntroImg{height: 70vh;}
+  .perfIntroImg{height: 65vh;}
   .performanceBio-container{top: 50%;}
+  .navTextCenter{margin-left: 35%;}
 }
 @media ( max-width: 2800px ) {
-  .perfIntroImg{height: 65vh;}
+  .perfIntroImg{height: 58vh;}
   .performanceBio-container{top: 200px;}
+  .navTextCenter {margin-left: 29%;}
 }
 @media ( max-width: 1680px ) {
   .navTextCenter{margin-left: 26%;}
+  .perfIntroImg{height: 50vh;}
 }
 @media ( max-width: 1500px ) {
   .navTextCenter{margin-left: 24%;}
+  .perfIntroImg{height: 45vh;}
 }
 @media ( max-width: 1380px ) {
   .navTextCenter{margin-left: 20%;}
